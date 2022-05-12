@@ -1,0 +1,17 @@
+ul, #front-end {
+    list-style-type: none;
+}
+.items {
+    cursor: auto;
+    user-select: none;
+}
+.items::before {
+    content: "\25B6";
+    color: grey;
+}
+.nested-items {
+    display: none;
+}
+.active {
+    display: block;
+}
